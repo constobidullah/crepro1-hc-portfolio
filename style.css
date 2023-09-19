@@ -81,6 +81,7 @@
     text-align: center;
     /* overflow: hidden; */
     margin: 0 0 0 -12px;
+    transition: .5s;
 }
 
 .side-bar .side-item ul li a {
