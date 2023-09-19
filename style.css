@@ -69,13 +69,16 @@
     text-align: center;
     border-radius: 3px;
 }
-
+.side-bar .side-item{
+    width: 38px;
+}
 
 .side-bar .side-item a{
     text-decoration: none;
     color: #fff;
     font-size: 2rem;
-    box-shadow: inset 0 0 0 0 transparent;
-    border: 1px solid transparent;
-    transition: .5s;
+}
+
+.side-bar .side-item:hover{
+    width: 58px;
 }
