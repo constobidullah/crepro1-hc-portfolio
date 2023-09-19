@@ -24,3 +24,10 @@
     left: 0;
     opacity: .6;
 }
+
+.banner-text{
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    text-align: center;
+}
