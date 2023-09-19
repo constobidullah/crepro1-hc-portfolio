@@ -81,3 +81,9 @@
 .side-bar .side-item a i {
     transition: 1s;
 }
+
+/* Hover */
+.side-bar .side-item a:hover i {
+    color: rgb(219, 219, 255);
+    transform: rotate(360deg);
+}
