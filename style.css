@@ -75,3 +75,8 @@
     gap: 5px;
     list-style-type: none;
 }
+
+.side-bar .side-item ul li a{
+    text-decoration: none;
+    color: #fff;
+}
