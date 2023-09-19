@@ -72,19 +72,33 @@
 
 .side-bar .side-item ul {
     display: flex;
-    justify-content: space-between;
-    gap: 5px;
+    justify-content: center;
     list-style-type: none;
+}
+
+.side-bar .side-item ul li {
+    width: 25px;
+    text-align: center;
+    /* overflow: hidden; */
+    margin: 0 0 0 -12px;
 }
 
 .side-bar .side-item ul li a {
     text-decoration: none;
     color: #fff;
     font-size: 1.5rem;
+    text-align: center;
 }
 
+
 .side-bar .side-item ul li:first-child a {
-    opacity: 0;
-    visibility: hidden;
     display: none;
+    visibility: hidden;
 }
+
+/* Hover Effect */
+
+.side-bar .side-item ul li:hover {
+    width: 100px;
+}
+
