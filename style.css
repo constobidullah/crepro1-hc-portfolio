@@ -65,13 +65,13 @@
     top: 25%;
     right: 5px;
     background-color: gray;
-    padding: 15px 7px;
+    padding: 15px 7px 0;
     text-align: center;
     border-radius: 3px;
 }
 
 .side-bar .side-item {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .side-bar .side-item a {
