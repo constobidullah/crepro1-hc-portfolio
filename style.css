@@ -52,14 +52,15 @@
     margin-bottom: 10px;
 }
 
-.banner-text .profession h3, .banner-text .profession h4{
+.banner-text .profession h3,
+.banner-text .profession h4 {
     color: #fff;
     font-size: 1.5rem;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 10px;
 }
 
-.side-bar{
+.side-bar {
     position: absolute;
     top: 25%;
     right: 5px;
@@ -69,14 +70,19 @@
     border-radius: 3px;
 }
 
-.side-bar .side-item ul{
+.side-bar .side-item ul {
     display: flex;
     justify-content: space-between;
     gap: 5px;
     list-style-type: none;
 }
 
-.side-bar .side-item ul li a{
+.side-bar .side-item ul li a {
     text-decoration: none;
     color: #fff;
+    font-size: 1.5rem;
 }
+
+/* .side-bar .side-item ul li:first-child a {
+    display: none;
+} */
