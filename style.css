@@ -58,3 +58,9 @@
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 10px;
 }
+
+.side-bar{
+    position: absolute;
+    top: 25%;
+    right: 5px;
+}
