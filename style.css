@@ -25,7 +25,7 @@
     opacity: .6;
 }
 
-.banner-text{
+.banner-text {
     position: absolute;
     top: 25%;
     right: 25%;
@@ -34,16 +34,20 @@
     text-align: center;
 }
 
-.banner-text .title h2{
+.banner-text .title {
+    margin-bottom: 30px;
+}
+
+.banner-text .title h2 {
     color: #fff;
     font-family: 'Mooli', sans-serif;
     font-size: 3.5rem;
     margin-bottom: 10px;
 }
 
-.banner-text .title h3{
+.banner-text .title h3 {
     color: #fff;
     font-family: 'Mooli', sans-serif;
     font-size: 2.5rem;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
