@@ -65,21 +65,7 @@
     top: 25%;
     right: 5px;
     background-color: gray;
-    padding: 5px 7px;
+    padding: 15px 7px;
     text-align: center;
     border-radius: 3px;
-}
-
-.side-bar .side-item ul {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-}
-
-.side-bar .side-item ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.5rem;
-    text-align: center;
-    transition: .5s;
 }
