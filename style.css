@@ -64,19 +64,19 @@
     position: absolute;
     top: 25%;
     right: 5px;
-    background-color: gray;
+    background-color: white;
     padding: 15px 7px 0;
     text-align: center;
     border-radius: 3px;
 }
 
 .side-bar .side-item {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .side-bar .side-item a {
     text-decoration: none;
-    color: #fff;
+    color: #000;
     font-size: 2rem;
     transition: .5s;
 }
@@ -88,5 +88,5 @@
 /* Hover */
 .side-bar .side-item a:hover i {
     color: rgb(219, 219, 255);
-    transform: rotate(360deg);
+    transform: rotate(360deg) scale(0.4);
 }
