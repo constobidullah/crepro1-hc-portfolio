@@ -75,4 +75,7 @@
     text-decoration: none;
     color: #fff;
     font-size: 2rem;
+    box-shadow: inset 0 0 0 0 transparent;
+    border: 1px solid transparent;
+    transition: .5s;
 }
