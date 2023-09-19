@@ -104,8 +104,3 @@
     width: 100px;
     margin: 0;
 }
-
-.side-bar .side-item ul li:first-child:hover a {
-    display: block;
-    visibility: visible;
-}
