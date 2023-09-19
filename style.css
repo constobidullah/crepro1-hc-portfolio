@@ -100,5 +100,6 @@
 
 .side-bar .side-item ul li:hover {
     width: 100px;
+    margin: 0;
 }
 
