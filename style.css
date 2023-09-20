@@ -82,7 +82,10 @@
     color: #fff;
     font-size: 2rem;
     padding: 10px;
+    transition: .5s;
 }
+
+
 
 .side-bar {
     position: absolute;
