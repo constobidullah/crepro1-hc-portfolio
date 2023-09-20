@@ -27,7 +27,7 @@
 
 .banner-text {
     position: absolute;
-    top: 35%;
+    top: 30%;
     right: 25%;
     left: 25%;
     text-align: center;
@@ -50,7 +50,9 @@
     font-size: 2.5rem;
     margin-bottom: 10px;
 }
-
+.banner-text .profession{
+    margin-bottom: 100px;
+}
 .banner-text .profession h3,
 .banner-text .profession h4 {
     color: #fff;
