@@ -64,14 +64,15 @@
 }
 
 .banner-text .social-container h3 {
+    text-align: center;
     color: #fff;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-family: 'Open Sans', sans-serif;
 }
 
 .banner-text .social-site {
     position: absolute;
-    left: 25%;
+    left: 21%;
     right: 25%;
     text-align: center;
     display: flex;
@@ -81,11 +82,15 @@
 .banner-text .social-site div a{
     color: #fff;
     font-size: 2rem;
-    padding: 10px;
-    transition: .5s;
+    padding: 10px 15px;
+    transition: 1s;
 }
 
-
+.banner-text .social-site div a:hover{
+    background-color: #fff;
+    color: #000;
+    border-radius: 50%;
+}
 
 .side-bar {
     position: absolute;
