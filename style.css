@@ -18,7 +18,7 @@
 .empty-color {
     width: 100%;
     height: 100vh;
-    background-color: black;
+    background-color: rgb(160, 160, 255);
     position: absolute;
     top: 0;
     left: 0;
@@ -72,21 +72,21 @@
 
 .banner-text .social-site {
     position: absolute;
-    left: 21%;
-    right: 25%;
+    /* right: 50%; */
+    left: 20%;
     text-align: center;
     display: flex;
     gap: 10px;
 }
 
-.banner-text .social-site div a{
+.banner-text .social-site div a {
     color: #fff;
     font-size: 2rem;
     padding: 10px 15px;
     transition: 1s;
 }
 
-.banner-text .social-site div a:hover{
+.banner-text .social-site div a:hover {
     background-color: #fff;
     color: #000;
     border-radius: 50%;
