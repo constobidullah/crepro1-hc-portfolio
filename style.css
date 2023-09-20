@@ -61,6 +61,15 @@
     margin-bottom: 10px;
 }
 
+.banner-text .social-site{
+    position: absolute;
+    left: 35%;
+    right: 35%;
+    text-align: center;
+    display: flex;
+    gap: 20px;
+}
+
 .side-bar {
     position: absolute;
     top: 25%;
