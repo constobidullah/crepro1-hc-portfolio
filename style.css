@@ -50,9 +50,11 @@
     font-size: 2.5rem;
     margin-bottom: 10px;
 }
-.banner-text .profession{
+
+.banner-text .profession {
     margin-bottom: 100px;
 }
+
 .banner-text .profession h3,
 .banner-text .profession h4 {
     color: #fff;
@@ -61,7 +63,13 @@
     margin-bottom: 10px;
 }
 
-.banner-text .social-site{
+.banner-text .social-container h3 {
+    color: #fff;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner-text .social-site {
     position: absolute;
     left: 35%;
     right: 35%;
