@@ -71,11 +71,16 @@
 
 .banner-text .social-site {
     position: absolute;
-    left: 35%;
-    right: 35%;
+    left: 30%;
+    right: 20%;
     text-align: center;
     display: flex;
     gap: 20px;
+}
+
+.banner-text .social-site div a{
+    color: #fff;
+    font-size: 2rem;
 }
 
 .side-bar {
