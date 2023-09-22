@@ -6,6 +6,10 @@
 
 /* about image  */
 
+#about-banner{
+    margin-bottom: 100px;
+}
+
 .about-image {
     position: relative;
 }
