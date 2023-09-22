@@ -48,3 +48,8 @@
 .intro-title{
     text-align: center;
 }
+
+.intro-title h3{
+    font-size: 3rem;
+    font-family: 'Mooli', sans-serif;
+}
