@@ -54,6 +54,7 @@
     background-color: rgb(161, 199, 255);
     border-radius: 4px;
     padding: 20px 120px;
+    transition: .5s;
 }
 
 .intro-title-heading h3 {
@@ -69,7 +70,11 @@
     transition: .5s ease-out;
 }
 
-.intro-title-heading:hover h3{
+.intro-title-heading:hover {
+    background-color: #000;
+}
+
+.intro-title-heading:hover h3 {
     box-shadow: inset 0 80px 0 0 #fff;
     color: #000;
     border-top: 3px solid transparent;
