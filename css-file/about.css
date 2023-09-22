@@ -70,7 +70,7 @@
     transition: .5s ease-out;
 }
 
-.intro-title-heading:hover {
+/* .intro-title-heading:hover {
     background-color: #000;
 }
 
@@ -82,7 +82,7 @@
     border-left: 3px solid transparent;
     border-bottom: 3px solid #000;
     border-radius: 5px;
-}
+} */
 
 /* side bar */
 .side-bar {
