@@ -142,3 +142,7 @@
     display: flex;
     align-items: center;
 }
+
+.intoduce-container .introduce-text{
+    width: 100%;
+}
