@@ -87,7 +87,7 @@
 /* side bar */
 .side-bar {
     height: 430px;
-    position: fixed;
+    position: absolute;
     top: 35%;
     bottom: 25%;
     right: 5px;
