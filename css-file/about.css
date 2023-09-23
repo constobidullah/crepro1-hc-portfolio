@@ -142,3 +142,7 @@
 .intoduce-container .introduce-text{
     width: 100%;
 }
+
+.introduce-text p{
+    font-family: 'Lato', sans-serif;
+}
