@@ -54,6 +54,7 @@
     background-color: rgb(161, 199, 255);
     border-radius: 4px;
     padding: 20px 120px;
+    margin-bottom: 30px;
     transition: .5s;
 }
 
