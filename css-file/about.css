@@ -122,11 +122,13 @@
 
 /* Introduce style */
 .intoduce-container{
-    margin: 0 20px;
+    background-color: rgb(249, 253, 255);
+    padding: 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .intoduce-container .introduce-image{
