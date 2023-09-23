@@ -38,9 +38,9 @@
 
 .image-text .about-text p {
     color: #fff;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Kaisei Opti', serif;
 }
 
 
@@ -144,5 +144,11 @@
 }
 
 .introduce-text p{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Kaisei Opti', serif;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.introduce-text p span{
+    font-weight: 700;
 }
