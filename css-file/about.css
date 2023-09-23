@@ -86,11 +86,12 @@
 
 /* side bar */
 .side-bar {
+    height: 430px;
     position: fixed;
     top: 35%;
     bottom: 25%;
     right: 5px;
-    background-color: white;
+    background-color: #a1c7ff;
     padding: 15px 7px 0;
     text-align: center;
     border-radius: 3px;
