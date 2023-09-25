@@ -121,40 +121,63 @@
 
 
 /* Introduce style */
-.intoduce-container{
+.intoduce-container {
     background-color: rgb(249, 253, 255);
     padding: 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+    gap: 0;
     align-items: center;
     margin-bottom: 100px;
 }
 
-.intoduce-container .introduce-image{
+.intoduce-container .introduce-image {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    gap: 30px;
+    grid-template-columns:repeat(1, 1fr);
+    align-items: center;
     justify-content: center;
+    gap: -100px;
 }
 
-.intoduce-container .introduce-image img{
-    width: 300px;
-    height: 300px;
+.intoduce-container .introduce-image img {
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
 }
 
-.intoduce-container .introduce-text{
+.intoduce-container .introduce-image img:nth-child(1) {
+    grid-column: 0 / 3;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px 5px 0 0;
+}
+
+.intoduce-container .introduce-image img:nth-child(2) {
+    grid-column-start: 0;
+    grid-column-end: 1;
+}
+
+.intoduce-container .introduce-image img:nth-child(3) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.intoduce-container .introduce-image img:nth-child(4) {
+    grid-column-start: 2;
+    grid-column-end: 23;
+}
+
+.intoduce-container .introduce-text {
     width: 100%;
 }
 
-.introduce-text p{
+.introduce-text p {
     font-family: 'Kaisei Opti', serif;
     text-align: justify;
     font-weight: 500;
 }
 
-.introduce-text p span{
+.introduce-text p span {
     font-weight: 700;
 }
