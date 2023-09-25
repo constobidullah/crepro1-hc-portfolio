@@ -85,40 +85,6 @@
     border-radius: 5px;
 } */
 
-/* side bar */
-.side-bar {
-    height: 430px;
-    position: absolute;
-    top: 35%;
-    bottom: 25%;
-    right: 5px;
-    background-color: #a1c7ff;
-    padding: 15px 7px 0;
-    text-align: center;
-    border-radius: 3px;
-}
-
-.side-bar .side-item {
-    margin-bottom: 25px;
-}
-
-.side-bar .side-item a {
-    text-decoration: none;
-    color: #000;
-    font-size: 2rem;
-    box-shadow: inset 0 0 0 0 transparent;
-    transition: .5s;
-}
-
-.side-bar .side-item a i {
-    transition: .5s;
-}
-
-/* Hover */
-.side-bar .side-item a:hover i {
-    color: rgb(191, 191, 255);
-}
-
 
 /* Introduce style */
 .intoduce-container {
