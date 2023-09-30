@@ -195,6 +195,10 @@
     gap: 5px;
 }
 
+.skill-item {
+    text-align: center;
+}
+
 .skill-item-iamge {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
