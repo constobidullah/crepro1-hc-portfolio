@@ -194,6 +194,10 @@
     justify-content: space-between;
 }
 
-.skill-item{
+.skill-item {
     background-color: #f9fdff;
+}
+
+.skill-item-iamge img {
+    width: 100px;
 }
