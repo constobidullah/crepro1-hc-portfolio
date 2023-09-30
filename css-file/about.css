@@ -220,4 +220,10 @@
     height: 70px;
     border-radius: 15px 0 15px 0;
     box-shadow: 0 5px 10px 0 #a1c7ff;
+    transition: 1s;
+}
+
+.skill-item-iamge img:hover{
+    transform: rotateY(180deg);
+    box-shadow: 0 8px 10px 0 #a1c7ff;
 }
