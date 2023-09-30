@@ -204,9 +204,10 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     padding: 30px;
-    background-color: #bce4f8;
+    background-color: #f5fcff;
 }
 
 .skill-item-iamge img {
     width: 130px;
+    box-shadow: 0 5px 10px 0 #a1c7ff;
 }
