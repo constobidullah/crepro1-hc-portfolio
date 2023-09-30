@@ -191,13 +191,6 @@
 #skill-parent {
     padding: 20px;
     display: flex;
-    justify-content: space-between;
-}
-
-.skill-item {
-    background-color: #f9fdff;
-}
-
-.skill-item-iamge img {
-    width: 100px;
+    justify-content: space-around;
+    gap: 5px;
 }
