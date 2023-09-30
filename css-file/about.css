@@ -190,6 +190,8 @@
 
 #skill-parent {
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .skill-item{
