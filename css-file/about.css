@@ -192,7 +192,7 @@
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    gap: 5px;
+    gap: 30px;
 }
 
 .skill-item {
@@ -200,10 +200,11 @@
 }
 
 .skill-item-iamge {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     gap: 10px;
-    padding: 30px;
+    padding: 10px 10px 0;
     background-color: #f5fcff;
 }
 
