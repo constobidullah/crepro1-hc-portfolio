@@ -210,5 +210,6 @@
 
 .skill-item-iamge img {
     width: 130px;
+    border-radius: 15px 0 15px 0;
     box-shadow: 0 5px 10px 0 #a1c7ff;
 }
