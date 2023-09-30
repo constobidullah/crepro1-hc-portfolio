@@ -194,3 +194,11 @@
     justify-content: space-around;
     gap: 5px;
 }
+
+.skill-item-iamge {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 30px;
+    background-color: #bce4f8;
+}
