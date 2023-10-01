@@ -242,7 +242,6 @@
 
 .education-item {
     width: 520px;
-    background-color: aquamarine;
     padding: 15px 10px;
     border-radius: 5px;
 }
@@ -256,6 +255,7 @@
     position: absolute;
     top: 90px;
     right: 20px;
+    box-shadow: 0 0 200px 0 rgba(0, 0, 0, 0.2);
 }
 
 .education-item:nth-child(3) {
