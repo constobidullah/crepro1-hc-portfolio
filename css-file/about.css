@@ -237,9 +237,11 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+    position: relative;
 }
 
 .education-item{
+    width: 500px;
     background-color: aquamarine;
     padding: 15px 10px;
     border-radius: 5px;
