@@ -235,3 +235,8 @@
 #education-parent{
     padding: 20px;
 }
+
+.education-item{
+    background-color: aquamarine;
+    padding: 15px 10px;
+}
