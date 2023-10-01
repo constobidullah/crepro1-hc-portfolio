@@ -270,3 +270,9 @@
     top: 270px;
     right: 20px;
 }
+
+.education-item:nth-child(1):hover,
+.education-item:nth-child(3):hover,
+.education-item:nth-child(4):hover {
+    box-shadow: 0 0 200px 0 rgba(0, 0, 0, 0.2);
+}
