@@ -200,7 +200,7 @@
     text-align: center;
 }
 
-.skill-item h3{
+.skill-item h3 {
     font-family: 'Mooli', sans-serif;
     font-size: 1.5rem;
     background-color: #f0f6ff;
@@ -224,7 +224,7 @@
     transition: 1s;
 }
 
-.skill-item-iamge img:hover{
+.skill-item-iamge img:hover {
     transform: rotateY(180deg);
     box-shadow: 0 8px 10px 0 #a1c7ff;
 }
@@ -232,17 +232,18 @@
 
 /* Education */
 
-#education-parent{
+#education-parent {
     padding: 20px;
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 20px; */
     position: relative;
 }
 
-.education-item{
+.education-item {
     width: 500px;
     background-color: aquamarine;
     padding: 15px 10px;
     border-radius: 5px;
 }
+
