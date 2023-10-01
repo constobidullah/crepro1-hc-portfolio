@@ -239,4 +239,5 @@
 .education-item{
     background-color: aquamarine;
     padding: 15px 10px;
+    border-radius: 5px;
 }
