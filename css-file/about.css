@@ -260,6 +260,7 @@
 .education-item p:nth-child(3){
     font-family: 'Kaisei Opti', serif;
     font-weight: 700;
+    margin-bottom: 15px;
 }
 
 .education-item:nth-child(1) {
