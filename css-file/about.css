@@ -308,7 +308,7 @@
     height: 285px;
     overflow: hidden;
     border-radius: 5px;
-    transition: 1s ease-out;
+    transition: height 1s ease-out;
     position: relative;
 }
 
