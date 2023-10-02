@@ -238,6 +238,7 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     position: relative;
+    margin-bottom: 100px;
 }
 
 .education-item {
