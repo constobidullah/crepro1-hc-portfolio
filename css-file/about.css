@@ -284,3 +284,9 @@
 .education-item:nth-child(4) {
     grid-column: 2/5;
 }
+
+/* Hover */
+
+.education-item:hover{
+    box-shadow: 0 0 80px 0 rgba(0, 0, 0, 0.1);
+}
