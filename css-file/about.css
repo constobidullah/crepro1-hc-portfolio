@@ -264,6 +264,7 @@
 
 .education-item .description-education{
     margin-top: 15px;
+    font-family: 'Nanum Myeongjo', serif;
 }
 
 .education-item:nth-child(1) {
