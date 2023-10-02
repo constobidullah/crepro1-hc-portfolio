@@ -304,6 +304,10 @@
     gap: 20px;
 }
 
+.experience-item {
+    border-radius: 5px;
+}
+
 .experience-item:nth-child(2) {
     height: auto;
     box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.2);
