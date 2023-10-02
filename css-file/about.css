@@ -305,14 +305,19 @@
 }
 
 .experience-item {
-    /* height: 285px;
-    overflow-y: hidden; */
+    height: 290px;
+    overflow-y: hidden;
+}
+
+.experience-item:nth-child(2) {
+    height: auto;
+    box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.2);
 }
 
 .experience-item img {
     object-fit: cover;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 5px 5px 0 0;
 }
 
 .experience-item h3 {
