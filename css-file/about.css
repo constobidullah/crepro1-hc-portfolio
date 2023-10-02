@@ -236,7 +236,7 @@
     padding: 20px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    gap: 10px;
     position: relative;
 }
 
@@ -251,42 +251,48 @@
     margin-bottom: 5px;
 }
 
-.education-item .certificate-name{
+.education-item .certificate-name {
     font-weight: 600;
     font-family: 'Kaisei Opti', serif;
     margin-bottom: 5px;
 }
 
-.education-item .point{
+.education-item .point {
     font-family: 'Kaisei Opti', serif;
     font-weight: 700;
 }
 
-.education-item .description-education{
-    text-align: justify;
+.education-item .description-education {
+    /* text-align: justify; */
     margin-top: 15px;
     font-family: 'Nanum Myeongjo', serif;
+    padding: 0 0 0 40px;
 }
 
 .education-item:nth-child(1) {
     grid-column: 1/4;
+    border-radius: 0 50px 0 0;
 }
 
 .education-item:nth-child(2) {
     grid-column: 2/5;
     box-shadow: 0 0 70px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 0 50px;
 }
 
 .education-item:nth-child(3) {
     grid-column: 1/4;
+    border-radius: 0 50px 0 0;
 }
 
 .education-item:nth-child(4) {
     grid-column: 2/5;
+    box-shadow: 0 0 70px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 0 50px;
 }
 
 /* Hover */
 
-.education-item:hover{
+.education-item:hover {
     box-shadow: 0 0 80px 0 rgba(0, 0, 0, 0.1);
 }
