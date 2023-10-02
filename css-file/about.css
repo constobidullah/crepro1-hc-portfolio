@@ -251,21 +251,17 @@
 }
 
 .education-item:nth-child(1) {
-    background-color: aquamarine;
     grid-column: 1/4;
 }
 
 .education-item:nth-child(2) {
-    background-color: aquamarine;
     grid-column: 2/5;
 }
 
 .education-item:nth-child(3) {
-    background-color: aquamarine;
     grid-column: 1/4;
 }
 
-.education-item:nth-child(4){
-    background-color: aquamarine;
+.education-item:nth-child(4) {
     grid-column: 2/5;
 }
