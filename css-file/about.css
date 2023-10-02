@@ -304,7 +304,11 @@
     gap: 20px;
 }
 
-.experience-item img{
+.experience-item {
+    text-align: center;
+}
+
+.experience-item img {
     object-fit: cover;
     width: 100%;
     border-radius: 5px;
