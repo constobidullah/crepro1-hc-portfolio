@@ -262,6 +262,10 @@
     font-weight: 700;
 }
 
+.education-item .description-education{
+    margin-top: 15px;
+}
+
 .education-item:nth-child(1) {
     grid-column: 1/4;
 }
