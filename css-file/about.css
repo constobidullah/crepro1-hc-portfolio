@@ -294,3 +294,8 @@
 .skill-item-iamge img:hover {
     transform: rotateY(180deg);
 }
+
+/* Experience  */
+#experience-parent {
+    margin-bottom: 100px;
+}
