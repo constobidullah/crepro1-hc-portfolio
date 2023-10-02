@@ -305,8 +305,8 @@
 }
 
 .experience-item {
-    height: 285px;
-    overflow-y: hidden;
+    /* height: 285px;
+    overflow-y: hidden; */
 }
 
 .experience-item img {
@@ -316,6 +316,7 @@
 }
 
 .experience-item h3 {
+    text-align: center;
     font-family: 'Mooli', sans-serif;
     margin: 10px 0 15px;
 }
