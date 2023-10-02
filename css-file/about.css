@@ -328,6 +328,8 @@
 .experience-item:nth-child(1) .experi-details,
 .experience-item:nth-child(3) .experi-details {
     visibility: hidden;
+    position: absolute;
+    bottom: -100%;
 }
 
 .experience-item h3 {
@@ -349,10 +351,3 @@
 }
 
 /* hover */
-.experience-item:hover {
-    box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.2);
-}
-
-.experience-item:hover .experi-details {
-    visibility: visible;
-}
