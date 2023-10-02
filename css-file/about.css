@@ -304,7 +304,10 @@
     gap: 20px;
 }
 
-.experience-item {}
+.experience-item {
+    height: 285px;
+    overflow-y: hidden;
+}
 
 .experience-item img {
     object-fit: cover;
@@ -325,6 +328,6 @@
     font-weight: 600;
 }
 
-.experi-description{
-   margin: 10px 0 0;
+.experi-description {
+    margin: 10px 0 0;
 }
