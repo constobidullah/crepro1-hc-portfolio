@@ -257,8 +257,6 @@
     margin-bottom: 5px;
 }
 
-
-
 .education-item:nth-child(1) {
     grid-column: 1/4;
 }
