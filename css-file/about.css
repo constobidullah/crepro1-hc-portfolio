@@ -346,3 +346,8 @@
 }
 
 /* hover */
+
+.experience-item:hover {
+    height: auto;
+    overflow: visible;
+}
