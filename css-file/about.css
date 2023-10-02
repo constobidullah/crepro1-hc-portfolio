@@ -250,6 +250,11 @@
     font-family: 'Mooli', sans-serif;
 }
 
+.education-item p:nth-child(2){
+    font-weight: 600;
+    font-family: 'Kaisei Opti', serif;
+}
+
 .education-item:nth-child(1) {
     grid-column: 1/4;
 }
