@@ -313,3 +313,8 @@
     width: 100%;
     border-radius: 5px;
 }
+
+.experience-item h3 {
+    font-family: 'Mooli', sans-serif;
+    margin: 10px 0;
+}
