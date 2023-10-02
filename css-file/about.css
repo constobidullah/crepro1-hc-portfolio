@@ -248,11 +248,13 @@
 
 .education-item h3 {
     font-family: 'Mooli', sans-serif;
+    margin-bottom: 5px;
 }
 
 .education-item p:nth-child(2){
     font-weight: 600;
     font-family: 'Kaisei Opti', serif;
+    margin-bottom: 5px;
 }
 
 .education-item:nth-child(1) {
