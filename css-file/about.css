@@ -307,6 +307,7 @@
 .experience-item {
     border-radius: 5px;
     transition: .5s ease-out;
+    position: relative;
 }
 
 .experience-item:nth-child(2) {
@@ -345,4 +346,13 @@
 
 .experi-description {
     margin: 10px 0 0;
+}
+
+/* hover */
+.experience-item:hover {
+    box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.2);
+}
+
+.experience-item:hover .experi-details {
+    visibility: visible;
 }
