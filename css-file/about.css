@@ -249,3 +249,8 @@
 .education-item h3{
     font-family: 'Mooli', sans-serif; 
 }
+
+.education-item:nth-child(1){
+    background-color: aquamarine;
+    grid-column: 1/4;
+}
