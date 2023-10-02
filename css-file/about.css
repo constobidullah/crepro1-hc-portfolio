@@ -257,6 +257,11 @@
     margin-bottom: 5px;
 }
 
+.education-item p:nth-child(3){
+    font-family: 'Kaisei Opti', serif;
+    font-weight: 700;
+}
+
 .education-item:nth-child(1) {
     grid-column: 1/4;
 }
