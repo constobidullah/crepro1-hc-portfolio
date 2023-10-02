@@ -350,4 +350,5 @@
 .experience-item:hover {
     height: auto;
     overflow: visible;
+    box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.2);
 }
