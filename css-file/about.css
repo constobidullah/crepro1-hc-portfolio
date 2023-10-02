@@ -304,9 +304,7 @@
     gap: 20px;
 }
 
-.experience-item {
-    text-align: center;
-}
+.experience-item {}
 
 .experience-item img {
     object-fit: cover;
@@ -316,5 +314,13 @@
 
 .experience-item h3 {
     font-family: 'Mooli', sans-serif;
-    margin: 10px 0;
+    margin: 10px 0 15px;
+}
+
+.experience-item p {
+    font-family: 'Mooli', sans-serif;
+}
+
+.experience-item p span {
+    font-weight: 600;
 }
