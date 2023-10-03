@@ -314,7 +314,11 @@
 
 .experience-item:nth-child(2) {
     height: 500px;
-    box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.1);
+}
+
+.experience-item:nth-child(2):hover {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
 }
 
 .experience-item img {
@@ -357,9 +361,9 @@
 .experience-item:hover {
     overflow: visible;
     height: 500px;
-    box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.1);
 }
 
-.experience-item:hover .experi-details{
+.experience-item:hover .experi-details {
     bottom: 0;
 }
