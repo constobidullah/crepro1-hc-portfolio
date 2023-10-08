@@ -407,6 +407,10 @@
     border-radius: 50%;
 }
 
+.passion-item div {
+    padding: 0 0 0 15px;
+}
+
 #passion-parent h3,
 #hobbies-parent h3 {
     text-align: center;
