@@ -387,6 +387,10 @@
     margin-bottom: 20px;
 }
 
+.hobbie-item {
+    padding: 20px;
+}
+
 .hobbie-item h5 {
     padding: 0 0 0 15px;
     font-family: 'Mooli', sans-serif;
@@ -408,8 +412,8 @@
     border-radius: 50%;
 }
 
-.hobbie-item p{
-    font-family: 'Mooli', sans-serif; 
+.hobbie-item p {
+    font-family: 'Mooli', sans-serif;
     padding: 0 0 0 15px;
     text-align: justify;
 }
