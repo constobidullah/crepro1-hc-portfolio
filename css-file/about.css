@@ -421,6 +421,10 @@
     margin-bottom: 10px;
 }
 
+.passion-detail p:last-child{
+    margin-top: 15px;
+}
+
 #passion-parent h3,
 #hobbies-parent h3 {
     text-align: center;
