@@ -388,8 +388,11 @@
 }
 
 .hobbie-item {
+    background-color: transparent;
+    border-radius: 4px;
     padding: 20px;
     margin: 0 0 20px 0;
+    transition: .5s ease-out;
 }
 
 .hobbie-item h5 {
@@ -418,3 +421,6 @@
     padding: 0 0 0 15px;
     text-align: justify;
 }
+
+/* Hover */
+
