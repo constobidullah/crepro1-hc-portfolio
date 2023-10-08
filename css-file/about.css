@@ -387,6 +387,14 @@
     transition: .5s ease-out;
 }
 
+.passion-item h5 {
+    padding: 0 0 0 15px;
+    font-family: 'Mooli', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 7px;
+    position: relative;
+}
+
 #passion-parent h3,
 #hobbies-parent h3 {
     text-align: center;
