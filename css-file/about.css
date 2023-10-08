@@ -411,6 +411,11 @@
     padding: 0 0 0 15px;
 }
 
+.passion-detail p{
+    font-family: 'Mooli', sans-serif;
+    line-height: 23px;
+}
+
 #passion-parent h3,
 #hobbies-parent h3 {
     text-align: center;
