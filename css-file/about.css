@@ -492,3 +492,13 @@
 .hobbie-item:hover h5::before {
     background-color: rgb(136, 85, 255);
 }
+
+
+footer{
+    text-align: center;
+    font-family: 'Mooli', sans-serif;
+}
+
+footer p span{
+    color: #a1c7ff;
+}
