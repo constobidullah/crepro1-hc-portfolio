@@ -411,18 +411,22 @@
     padding: 0 0 0 15px;
 }
 
-.passion-detail p{
+.passion-detail p {
     font-family: 'Mooli', sans-serif;
     line-height: 23px;
 }
 
-.passion-detail p:nth-child(1){
+.passion-detail p:nth-child(1) {
     font-weight: 700;
     margin-bottom: 10px;
 }
 
-.passion-detail p:last-child{
+.passion-detail p:last-child {
     margin-top: 15px;
+}
+
+.passion-item:hover {
+    box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.2);
 }
 
 #passion-parent h3,
@@ -476,7 +480,7 @@
 
 .hobbie-item:hover {
     background-color: #f0f6ff;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.2);
 }
 
 .hobbie-item:hover h5::before {
