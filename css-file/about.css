@@ -395,6 +395,18 @@
     position: relative;
 }
 
+.passion-item h5::before {
+    content: " ";
+    position: absolute;
+    top: 25%;
+    bottom: 25%;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #a1c7ff;
+    border-radius: 50%;
+}
+
 #passion-parent h3,
 #hobbies-parent h3 {
     text-align: center;
