@@ -416,6 +416,11 @@
     line-height: 23px;
 }
 
+.passion-detail p:nth-child(1){
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
 #passion-parent h3,
 #hobbies-parent h3 {
     text-align: center;
