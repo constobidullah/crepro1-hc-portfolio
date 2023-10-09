@@ -25,3 +25,14 @@
     font-size: .8rem;
     transition: .5s;
 }
+
+#work-banner {
+    height: 60vh;
+    position: relative;
+}
+
+#work-banner img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
