@@ -76,7 +76,9 @@
 .project-item {
     width: 300px;
     height: 400px;
+    border-radius: 4px;
     position: relative;
+    transition: all .5s;
 }
 
 .project-item img {
@@ -94,6 +96,7 @@
     height: 100%;
     background-color: #000;
     opacity: .5;
+    border-radius: 4px;
 
     visibility: hidden;
 }
@@ -104,6 +107,7 @@
     left: 45%;
 
     visibility: hidden;
+    transition: .3s;
 }
 
 .project-icon a {
@@ -114,4 +118,8 @@
 .project-item:hover .project-icon-container,
 .project-item:hover .project-icon {
     visibility: visible;
+}
+
+.project-icon:hover {
+    transform: scaleX(1.8);
 }
