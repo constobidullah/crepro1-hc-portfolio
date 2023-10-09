@@ -154,10 +154,16 @@
 }
 
 .process-item .process-number {
-    background-color: red;
     position: absolute;
-    top: -30px;
+    top: -35px;
     left: 50%;
     padding: 20px;
     border-radius: 100%;
+    background-color: #a1c7ff;
+}
+
+.process-number span {
+    color: #fff;
+    font-weight: 900;
+    font-size: 1.5rem;
 }
