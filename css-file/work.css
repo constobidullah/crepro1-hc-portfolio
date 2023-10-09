@@ -153,6 +153,7 @@
     height: 90px;
     box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.2);
     position: relative;
+    margin-bottom: 100px;
 }
 
 .process-item .process-number {
@@ -168,4 +169,12 @@
     color: #fff;
     font-weight: 900;
     font-size: 1.5rem;
+}
+
+.process-item .process-name {
+    position: absolute;
+    top: 45%;
+    right: 25%;
+    bottom: 25%;
+    left: 25%;
 }
