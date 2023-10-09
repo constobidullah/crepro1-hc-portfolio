@@ -80,14 +80,14 @@
     position: relative;
 }
 
-.project-item img{
+.project-item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     position: relative;
 }
 
-.project-item .project-icon-container{
+.project-item .project-icon-container {
     position: absolute;
     top: 0;
     left: 0;
@@ -95,12 +95,16 @@
     height: 100%;
     background-color: #000;
     opacity: .5;
+
+    visibility: hidden;
 }
 
-.project-item .project-icon{
+.project-item .project-icon {
     position: absolute;
     top: 50%;
     left: 45%;
+
+    visibility: hidden;
 }
 
 .project-icon a {
