@@ -428,7 +428,7 @@
 }
 
 .passion-item:hover {
-    box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.1);
 }
 
 .passion-item:hover h5::before{
@@ -486,7 +486,7 @@
 
 .hobbie-item:hover {
     background-color: #f0f6ff;
-    box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.1);
 }
 
 .hobbie-item:hover h5::before {
