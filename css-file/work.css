@@ -27,7 +27,7 @@
 }
 
 #work-banner {
-    height: 60vh;
+    height: 30vh;
     position: relative;
 }
 
@@ -54,8 +54,17 @@
 /* Work Banner title */
 .work-banner-title {
     position: absolute;
-    top: 45%;
-    right: 25%;
+    top: 25%;
+    right: 35%;
     bottom: 25%;
-    left: 45%;
+    left: 35%;
+}
+
+.work-banner-title h3 {
+    color: #fff;
+    font-size: 2.5rem;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 10px double;
+    text-align: center;
+    padding-bottom: 10px;
 }
