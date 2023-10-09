@@ -152,6 +152,11 @@
     position: relative;
 }
 
+.process-title h3{
+    text-align: center;
+    font-size: 2.4rem;
+    font-family: 'Raleway', sans-serif;
+}
 
 #process-container {
     display: flex;
