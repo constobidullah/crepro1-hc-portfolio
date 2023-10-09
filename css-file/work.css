@@ -79,6 +79,7 @@
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
+    margin-bottom: 100px;
 }
 
 .project-item {
@@ -91,8 +92,7 @@
     transition: all 1s;
 }
 
-.project-item:nth-child(2),
-.project-item:last-child {
+.project-item:nth-child(2) {
     opacity: 1;
     box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.2);
 }
@@ -133,7 +133,7 @@
 
 /* Hover effect */
 
-.project-item:hover{
+.project-item:hover {
     opacity: 1;
 }
 
