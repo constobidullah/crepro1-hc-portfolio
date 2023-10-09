@@ -73,6 +73,13 @@
 
 /* Projects */
 
+#project-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
 .project-item {
     width: 300px;
     height: 400px;
