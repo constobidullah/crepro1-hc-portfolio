@@ -110,3 +110,8 @@
     color: #fff;
     font-size: 2.5rem;
 }
+
+.project-item:hover .project-icon-container,
+.project-item:hover .project-icon {
+    visibility: visible;
+}
