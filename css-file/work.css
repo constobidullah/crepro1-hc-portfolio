@@ -147,12 +147,18 @@
 }
 
 /* Work Process */
+
+.process-title{
+    position: relative;
+}
+
+
 #process-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     row-gap: 50px;
-    margin-bottom: 100px;
+    margin: 100px 0;
 }
 
 .process-item {
