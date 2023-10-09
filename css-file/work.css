@@ -192,6 +192,11 @@
     font-family: 'Raleway', sans-serif;
 }
 
+.process-item:last-child{
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
 /* hover */
 
 .process-item:hover {
