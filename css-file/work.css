@@ -5,7 +5,7 @@
 }
 
 .side-bar {
-    position: fixed;
+    position: absolute;
     top: 35%;
     right: 5px;
     bottom: 35%;
@@ -27,8 +27,9 @@
 }
 
 #work-banner {
-    height: 40vh;
+    height: 50vh;
     position: relative;
+    margin-bottom: 100px;
 }
 
 #work-banner img {
@@ -75,4 +76,11 @@
 .project-item {
     width: 300px;
     height: 400px;
+    background-color: red;
+}
+
+.project-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
