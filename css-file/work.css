@@ -149,7 +149,7 @@
 /* Work Process */
 
 .process-item {
-    width: 200px;
+    width: 250px;
     height: 90px;
     box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
@@ -175,9 +175,9 @@
 .process-item .process-name {
     position: absolute;
     top: 45%;
-    right: 10%;
+    right: 20%;
     bottom: 25%;
-    left: 10%;
+    left: 20%;
 }
 
 .process-name p {
