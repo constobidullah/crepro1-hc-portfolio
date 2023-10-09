@@ -37,7 +37,7 @@
     height: 100%;
 }
 
-.empty-container{
+.empty-container {
     position: absolute;
     top: 0;
     right: 0;
@@ -48,4 +48,14 @@
     height: 100%;
     background-color: #000;
     opacity: .3;
+}
+
+
+/* Work Banner title */
+.work-banner-title {
+    position: absolute;
+    top: 45%;
+    right: 25%;
+    bottom: 25%;
+    left: 45%;
 }
