@@ -145,3 +145,10 @@
 .project-icon:hover {
     transform: scaleX(1.8);
 }
+
+/* Work Process */
+
+.process-item {
+    box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+}
