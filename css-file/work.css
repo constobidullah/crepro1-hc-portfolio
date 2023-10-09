@@ -86,7 +86,15 @@
     height: 400px;
     border-radius: 4px;
     position: relative;
-    transition: all .5s;
+
+    opacity: 0;
+    transition: all 1s;
+}
+
+.project-item:nth-child(2),
+.project-item:last-child {
+    opacity: 1;
+    box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.2);
 }
 
 .project-item img {
@@ -121,6 +129,12 @@
 .project-icon a {
     color: #fff;
     font-size: 2.5rem;
+}
+
+/* Hover effect */
+
+.project-item:hover{
+    opacity: 1;
 }
 
 .project-item:hover .project-icon-container,
