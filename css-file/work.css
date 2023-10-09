@@ -27,7 +27,7 @@
 }
 
 #work-banner {
-    height: 30vh;
+    height: 40vh;
     position: relative;
 }
 
@@ -54,7 +54,7 @@
 /* Work Banner title */
 .work-banner-title {
     position: absolute;
-    top: 25%;
+    top: 35%;
     right: 35%;
     bottom: 25%;
     left: 35%;
