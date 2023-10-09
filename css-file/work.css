@@ -147,6 +147,9 @@
 }
 
 /* Work Process */
+#process-container {
+    display: flex;
+}
 
 .process-item {
     width: 250px;
@@ -154,7 +157,6 @@
     box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     position: relative;
-    margin-bottom: 100px;
     transition: .5s;
 }
 
