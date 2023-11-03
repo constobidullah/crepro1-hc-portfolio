@@ -229,6 +229,8 @@
 }
 
 .review-item {
+    height: 100px;
+    overflow: hidden;
     padding: 15px;
     background-color: #fff;
     box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.1);
@@ -236,15 +238,19 @@
     transition: .5s;
 }
 
+.review-img {
+    transition: .5s;
+}
+
 .review-img img {
-    width: 70px;
-    height: 70px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     position: absolute;
-    top: -35px;
+    top: 0;
     right: 90%;
     bottom: 0;
-    left: 35%;
+    left: 43%;
 }
 
 .review-name-title {
@@ -257,3 +263,6 @@
 }
 
 /* review hover */
+.review-item:hover{
+    height: 270px;
+}
