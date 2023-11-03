@@ -228,6 +228,7 @@
 }
 
 .review-item {
+    padding: 15px;
     background-color: #fff;
     box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.1);
     position: relative;
@@ -239,4 +240,8 @@
     border-radius: 50%;
     position: absolute;
     top: -35px; left: -25px;
+}
+
+.review-name-title{
+    margin: 40px 0 20px 0;
 }
