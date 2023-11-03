@@ -228,5 +228,13 @@
 }
 
 .review-item {
-    box-shadow: rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.review-img img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
 }
