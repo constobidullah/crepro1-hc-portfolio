@@ -148,12 +148,12 @@
 
 /* Work Process */
 
-.process-title{
+.process-title {
     padding: 0 20px;
     position: relative;
 }
 
-.process-title h3{
+.process-title h3 {
     text-align: center;
     font-size: 2.4rem;
     font-family: 'Raleway', sans-serif;
@@ -206,7 +206,7 @@
     font-family: 'Raleway', sans-serif;
 }
 
-.process-item:last-child{
+.process-item:last-child {
     padding: 10px;
     font-size: 1.2rem;
 }
@@ -215,4 +215,14 @@
 
 .process-item:hover {
     transform: scale(1.1);
+}
+
+
+/* Review parent and review item here  */
+
+#review-parent {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
 }
